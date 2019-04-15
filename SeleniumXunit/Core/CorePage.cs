@@ -304,10 +304,7 @@ namespace SeleniumXunit.Core
                 {
                     return true;
                 }
-                else
-                {
-                    return false;
-                }
+                return false;
             }
             catch (Exception)
             {

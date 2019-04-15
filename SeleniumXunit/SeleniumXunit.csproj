@@ -17,6 +17,7 @@
     <PackageReference Include="Selenium.WebDriver" Version="3.141.0" />
     <PackageReference Include="WebDriver.ChromeDriver.win32" Version="2.46.0" />
     <PackageReference Include="Selenium.Support" Version="3.141.0" />
+    <PackageReference Include="Faker.Net" Version="1.1.1" />
   </ItemGroup>
 
   <ItemGroup>
@@ -25,5 +26,7 @@
   <ItemGroup>
     <Folder Include="Core\" />
     <Folder Include="Driver\" />
+    <Folder Include="Pages\" />
+    <Folder Include="Tests\" />
   </ItemGroup>
 </Project>

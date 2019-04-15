@@ -1,5 +1,8 @@
 ﻿using System;
+using SeleniumXunit.Pages;
 using Xunit;
+[assembly: CollectionBehavior(DisableTestParallelization = true)]
+
 
 namespace SeleniumXunit.Core
 
@@ -9,7 +12,11 @@ namespace SeleniumXunit.Core
 
         public CoreTest() {
 
-            DriverFactory.GetDriver().Url = "http://www.google.com.br";
+            Inicializacao init = new Inicializacao();
+
+            DriverFactory.GetDriver().Url = "https://mark7.herokuapp.com";
+
+            init.Realizarlogin();
 
         }
 
