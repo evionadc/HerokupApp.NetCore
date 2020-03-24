@@ -1,0 +1,7 @@
+﻿[*.cs]
+
+# CA1031: Não capturar exceptions de tipos genéricos
+dotnet_diagnostic.CA1031.severity = silent
+
+# CA1707: Identificadores não devem conter sublinhados
+dotnet_diagnostic.CA1707.severity = silent
